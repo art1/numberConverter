@@ -135,6 +135,7 @@ void MainWindow::on_lineEdit_ascii_textEdited(const QString &arg1)
             ui->lineEdit_bin->setText(QString::number(val,2));
             ui->lineEdit_hex->setText(QString::number(val,16));
             ui->lineEdit_dec->setText(QString::number(val));
+            ui->lineEdit_dec->insert("");
 
         }
     }
