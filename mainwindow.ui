@@ -77,7 +77,7 @@
     <item row="4" column="0">
      <widget class="QLabel" name="label_float">
       <property name="text">
-       <string>float representation</string>
+       <string>float in bytes</string>
       </property>
      </widget>
     </item>
@@ -90,6 +90,9 @@
     </item>
     <item row="5" column="1">
      <widget class="QRadioButton" name="signed_2">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
       <property name="text">
        <string>signed</string>
       </property>
